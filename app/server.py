@@ -10,9 +10,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1tjfEFm5wOzAQBXJgU8sqZlUPmC-BhdMI'
-export_file_name = 'export.pkl'
-
+export_file_url = 'https://drive.google.com/open?id=1lh7uMHUvqWSW9aRTRtQcZFgFWotTJOrU'
+export_file_name = 'plant_village.pkl'
 classes=['Apple___Apple_scab',
  'Apple___Black_rot',
  'Apple___Cedar_apple_rust',
