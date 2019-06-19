@@ -10,9 +10,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1lh7uMHUvqWSW9aRTRtQcZFgFWotTJOrU'
-export_file_name = 'plant_village.pkl'
-classes=['Apple___Apple_scab',
+export_file_url = 'https://drive.google.com/uc?export=download&id=1lh7uMHUvqWSW9aRTRtQcZFgFWotTJOrU'
+export_file_name = 'export.pkl'
+
+classes = ['Apple___Apple_scab',
  'Apple___Black_rot',
  'Apple___Cedar_apple_rust',
  'Apple___healthy',
@@ -50,7 +51,24 @@ classes=['Apple___Apple_scab',
  'Tomato___Tomato_Yellow_Leaf_Curl_Virus',
  'Tomato___Tomato_mosaic_virus',
  'Tomato___healthy',
- 'background']
+ 'background'
+]
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1WjR1_Qw0m603BDxi9zIq76Xtw4f6A00n'
+#export_file_name = 'export.pkl'
+
+#classes = ['Black-grass',
+# 'Charlock',
+# 'Cleavers',
+# 'Common Chickweed',
+# 'Common wheat',
+# 'Fat Hen',
+# 'Loose Silky-bent',
+# 'Maize',
+# 'Scentless Mayweed',
+# 'Shepherds Purse',
+# 'Small-flowered Cranesbill',
+# 'Sugar beet']
+
 
 path = Path(__file__).parent
 
